@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/v5_tv"
+        style="@style/AppTheme.wrap"
+        android:layout_centerInParent="true"
+        android:text="@string/v5"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/v5_btn"
+        style="@style/AppTheme.wrap"
+        android:layout_below="@+id/v5_tv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/my_click"
+        android:text="开始"/>
+</RelativeLayout>
